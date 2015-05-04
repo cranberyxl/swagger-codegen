@@ -31,7 +31,7 @@ public class RetrofitClientCodegen extends DefaultCodegen implements CodegenConf
     outputFolder = "generated-code/java";
     modelTemplateFiles.put("model.mustache", ".java");
     apiTemplateFiles.put("api.mustache", ".java");
-    templateDir = "Java";
+    templateDir = "retrofit";
     apiPackage = "io.swagger.client.api";
     modelPackage = "io.swagger.client.model";
 
